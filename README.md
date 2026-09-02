@@ -80,14 +80,18 @@ FORM: Experience-mode intercepted signal terminal; the user pinned the cyberpunk
   <img height="175" src="./profile/top-langs-dark.svg" alt="Neil's most used languages" />
 </div>
 
-## ⚡ NEON SNAKE // DAILY RUN
+## ⚡ CONTRIBUTION SNAKE // 贡献轨迹
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/NeilBaumanMax/NeilBaumanMax/output/neon-snake.svg" alt="A procedural neon snake weaving through randomly distributed energy nodes; regenerated daily" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NeilBaumanMax/NeilBaumanMax/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NeilBaumanMax/NeilBaumanMax/output/github-contribution-grid-snake.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/NeilBaumanMax/NeilBaumanMax/output/github-contribution-grid-snake-dark.svg" alt="霓虹朋克配色的 GitHub 真实贡献记录贪吃蛇动画" />
+  </picture>
 </div>
 
 <p align="center">
-  <sub><code>ROUTE RANDOMIZED DAILY</code> · <code>REDUCED-MOTION SAFE</code> · <code>SIGNAL NEVER SLEEPS</code></sub>
+  <sub><code>真实贡献记录</code> · <code>每日自动更新</code> · <code>霓虹朋克配色</code></sub>
 </p>
 
 <div align="center">

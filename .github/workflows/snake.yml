@@ -1,4 +1,4 @@
-name: Generate neon snake
+name: Generate contribution snake
 
 on:
   schedule:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: neon-snake
+  group: contribution-snake
   cancel-in-progress: true
 
 jobs:
@@ -21,13 +21,13 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Check out profile source
-        uses: actions/checkout@v6
-
-      - name: Generate randomized neon route
-        env:
-          NEON_SEED: ${{ github.run_id }}-${{ github.run_attempt }}
-        run: node scripts/generate-neon-snake.mjs dist/neon-snake.svg
+      - name: Generate neon contribution SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#00B8C4&color_dots=#EEEAF7,#C7F8FF,#67E8F9,#A855F7,#E600B8
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#00F0FF&color_dots=#14101F,#173A4A,#00A9C0,#8B5CF6,#D9FF3F
 
       - name: Publish SVG to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
