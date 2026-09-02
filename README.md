@@ -24,6 +24,29 @@ I build practical products across **AI tooling**, **full-stack platforms**, and 
 - 🌱 Always exploring better ways to design, automate, and ship
 - 💬 Happy to connect around AI agents, product engineering, and open source
 
+## More from me
+
+<table>
+  <tr>
+    <td width="96" valign="top">
+      <a href="https://github.com/neilbauman666">
+        <img src="https://avatars.githubusercontent.com/u/301666736?v=4" width="80" alt="Catnip profile avatar" />
+      </a>
+    </td>
+    <td valign="top">
+      <strong><a href="https://github.com/neilbauman666">@neilbauman666</a> · Catnip</strong><br />
+      My alternate GitHub account for Catnip projects, experiments, and earlier builds.<br /><br />
+      <a href="https://github.com/neilbauman666?tab=repositories"><img src="https://img.shields.io/badge/Explore_alt_account-06b6d4?style=flat-square&logo=github&logoColor=white" alt="Explore my alternate GitHub account" /></a>
+    </td>
+  </tr>
+</table>
+
+| From the alternate account | Index |
+| --- | --- |
+| [Catnipent](https://github.com/neilbauman666/Catnipent) | TypeScript project |
+| [Catnip Skill Hub](https://github.com/neilbauman666/Catnip-skill-hub-main) | Agent Skill discovery hub |
+| [Catnip Forge Open](https://github.com/neilbauman666/Catnip_Forge_Open) | Public fork and experimentation space |
+
 ## Selected work
 
 | Project | What it is | Stack |
