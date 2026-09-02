@@ -1,93 +1,96 @@
+<!--
+THESIS: A pirate broadcast for a builder across AI, product, and embedded systems; it refuses the generic badge-wall profile.
+OWN-WORLD: Void-violet panels, plasma magenta identity, electric-cyan navigation, ultraviolet depth, acid live signals, circuit geometry, and contained neon bloom.
+STORY: Visitors identify Neil, scan real work, discover both GitHub channels, read technical telemetry, and leave through a memorable arcade transmission.
+FIRST VIEWPORT: A full-width authored broadcast panel leads; identity and disciplines dominate, followed by live channel chips and one concise transmission.
+FORM: Experience-mode intercepted signal terminal; the user pinned the cyberpunk direction, so no concept seed was required.
+-->
+
 <div align="center">
+  <a href="https://github.com/NeilBaumanMax">
+    <img src="./assets/neon-header.svg" width="100%" alt="Neil Bauman — AI systems, full-stack products, and embedded intelligence" />
+  </a>
 
-# Hi, I'm Neil Bauman 👋
+  <img src="./assets/neon-ticker.svg" width="90%" alt="Cycling builder transmission: AI systems, full-stack products, and software-hardware integration" />
 
-<a href="https://github.com/NeilBaumanMax">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=06B6D4&center=true&vCenter=true&repeat=true&width=720&lines=Building+useful+AI+tools+and+developer+products;Full-stack+engineering+%C2%B7+Embedded+intelligence;Turning+ambitious+ideas+into+working+systems" alt="Typing introduction" />
-</a>
-
-<p>
-  <a href="https://github.com/NeilBaumanMax?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_work-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="Explore my repositories" /></a>
-  <img src="https://komarev.com/ghpvc/?username=NeilBaumanMax&style=for-the-badge&color=06b6d4&label=PROFILE+VIEWS" alt="Profile views" />
-</p>
-
+  <p>
+    <a href="https://github.com/NeilBaumanMax?tab=repositories"><img src="https://img.shields.io/badge/PRIMARY_CHANNEL-00F0FF?style=flat-square&logo=github&logoColor=080611&labelColor=080611" alt="Explore primary GitHub repositories" /></a>
+    <a href="https://github.com/neilbauman666"><img src="https://img.shields.io/badge/ALT_SIGNAL-FF2BD6?style=flat-square&logo=github&logoColor=080611&labelColor=080611" alt="Visit alternate GitHub account" /></a>
+    <img src="https://img.shields.io/badge/BUILD_MODE-CROSS_DISCIPLINE-D9FF3F?style=flat-square&labelColor=080611" alt="Cross-discipline build mode" />
+    <img src="https://komarev.com/ghpvc/?username=NeilBaumanMax&style=flat-square&color=8B5CF6&label=SIGNAL+HITS" alt="Profile views" />
+  </p>
 </div>
 
-## About me
+## ◈ SYSTEM PROFILE
 
-I build practical products across **AI tooling**, **full-stack platforms**, and **embedded intelligent systems**. I care about clear interfaces, dependable engineering, and taking ideas all the way from prototype to something people can actually use.
+> **TRANSMISSION //** I build practical products across **AI tooling**, **full-stack platforms**, and **embedded intelligent systems**—turning ambitious ideas into reliable things people can actually use.
 
 我专注于 AI 工具、全栈产品与智能硬件，把想法做成真正可用、可靠、好用的系统。
 
-- 🔭 Currently building tools for the AI-agent ecosystem
-- 🧩 Enjoy working across product, software, and hardware boundaries
-- 🌱 Always exploring better ways to design, automate, and ship
-- 💬 Happy to connect around AI agents, product engineering, and open source
+| Signal | Current coordinates |
+| --- | --- |
+| `BUILDING` | Tools for the AI-agent ecosystem |
+| `CROSSING` | Product, software, and hardware boundaries |
+| `EXPLORING` | Better ways to design, automate, and ship |
+| `OPEN LINE` | AI agents · product engineering · open source |
 
-## More from me
+## ⌁ SECOND CHANNEL
 
 <table>
   <tr>
     <td width="96" valign="top">
       <a href="https://github.com/neilbauman666">
-        <img src="https://avatars.githubusercontent.com/u/301666736?v=4" width="80" alt="Catnip profile avatar" />
+        <img src="https://avatars.githubusercontent.com/u/301666736?v=4" width="80" alt="Catnip alternate-account avatar" />
       </a>
     </td>
     <td valign="top">
-      <strong><a href="https://github.com/neilbauman666">@neilbauman666</a> · Catnip</strong><br />
-      My alternate GitHub account for Catnip projects, experiments, and earlier builds.<br /><br />
-      <a href="https://github.com/neilbauman666?tab=repositories"><img src="https://img.shields.io/badge/Explore_alt_account-06b6d4?style=flat-square&logo=github&logoColor=white" alt="Explore my alternate GitHub account" /></a>
+      <strong><a href="https://github.com/neilbauman666">@neilbauman666</a> // CATNIP</strong><br />
+      Alternate channel for Catnip projects, experiments, and earlier builds.<br /><br />
+      <a href="https://github.com/neilbauman666?tab=repositories"><img src="https://img.shields.io/badge/OPEN_CHANNEL-FF2BD6?style=flat-square&logo=github&logoColor=080611" alt="Explore alternate GitHub repositories" /></a>
     </td>
   </tr>
 </table>
 
-| From the alternate account | Index |
+| Callsign | Repository signal |
 | --- | --- |
-| [Catnipent](https://github.com/neilbauman666/Catnipent) | TypeScript project |
+| [Catnipent](https://github.com/neilbauman666/Catnipent) | `TypeScript` project |
 | [Catnip Skill Hub](https://github.com/neilbauman666/Catnip-skill-hub-main) | Agent Skill discovery hub |
 | [Catnip Forge Open](https://github.com/neilbauman666/Catnip_Forge_Open) | Public fork and experimentation space |
 
-## Selected work
+## ✦ ACTIVE BUILDS
 
-| Project | What it is | Stack |
+| Project | Mission | Core stack |
 | --- | --- | --- |
-| [Catnip Skill Hub](https://github.com/NeilBaumanMax/Catnip-Skill-Hub) | A discovery platform for reusable Agent Skills | Next.js · TypeScript · PostgreSQL |
-| [Catnipent](https://github.com/NeilBaumanMax/Catnip-Intro) | A full-stack site for local AI-agent hardware and software | Next.js · Go · SQLite |
-| SmartRollator | An intelligent rollator control system with compliant motion control | STM32 · FreeRTOS · C |
+| [Catnip Skill Hub](https://github.com/NeilBaumanMax/Catnip-Skill-Hub) | Discovery platform for reusable Agent Skills | `Next.js` `TypeScript` `PostgreSQL` |
+| [Catnipent](https://github.com/NeilBaumanMax/Catnip-Intro) | Full-stack site for local AI-agent hardware and software | `Next.js` `Go` `SQLite` |
+| SmartRollator | Intelligent rollator control with compliant motion | `STM32` `FreeRTOS` `C` |
 
-## Toolbox
+## ⬡ TOOLCHAIN
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,go,python,c,docker,postgres,sqlite,git,linux&perline=6&theme=dark" alt="TypeScript, Next.js, React, Node.js, Go, Python, C, Docker, PostgreSQL, SQLite, Git, and Linux" />
+  </a>
+</div>
+
+## ⟡ LIVE TELEMETRY
+
+<div align="center">
+  <img height="175" src="./profile/stats-dark.svg" alt="Neil's GitHub statistics" />
+  <img height="175" src="./profile/top-langs-dark.svg" alt="Neil's most used languages" />
+</div>
+
+## ⚡ NEON SNAKE // DAILY RUN
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/NeilBaumanMax/NeilBaumanMax/output/neon-snake.svg" alt="A procedural neon snake weaving through randomly distributed energy nodes; regenerated daily" />
+</div>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,go,python,c,docker,postgres,sqlite,git,linux&perline=6" alt="Technology stack" />
-  </a>
+  <sub><code>ROUTE RANDOMIZED DAILY</code> · <code>REDUCED-MOTION SAFE</code> · <code>SIGNAL NEVER SLEEPS</code></sub>
 </p>
 
-## GitHub at a glance
-
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-    <img height="175" src="./profile/stats-light.svg" alt="Neil's GitHub statistics" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
-    <img height="175" src="./profile/top-langs-light.svg" alt="Neil's most used languages" />
-  </picture>
-</div>
-
-## Contribution trail
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NeilBaumanMax/NeilBaumanMax/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NeilBaumanMax/NeilBaumanMax/output/github-contribution-grid-snake.svg" />
-    <img alt="Animated contribution graph" src="https://raw.githubusercontent.com/NeilBaumanMax/NeilBaumanMax/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
-
-<div align="center">
-
-### Build with curiosity. Ship with care.
-
+  <img src="https://img.shields.io/badge/BUILD_WITH_CURIOSITY-8B5CF6?style=flat-square&labelColor=080611" alt="Build with curiosity" />
+  <img src="https://img.shields.io/badge/SHIP_WITH_CARE-00F0FF?style=flat-square&labelColor=080611" alt="Ship with care" />
 </div>

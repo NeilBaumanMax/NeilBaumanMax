@@ -24,30 +24,12 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v6
 
-      - name: Generate light statistics card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=0891b2&icon_color=06b6d4&text_color=334155&ring_color=06b6d4
-          path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
       - name: Generate dark statistics card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=06b6d4&text_color=cbd5e1&ring_color=06b6d4
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=false&border_color=8B5CF6&bg_color=080611&title_color=FF2BD6&icon_color=00F0FF&text_color=F4F1FF&ring_color=D9FF3F
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: Generate light languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=00000000&title_color=0891b2&text_color=334155&langs_count=8
-          path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
@@ -55,7 +37,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=00000000&title_color=22d3ee&text_color=cbd5e1&langs_count=8
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=false&border_color=8B5CF6&bg_color=080611&title_color=00F0FF&text_color=F4F1FF&langs_count=8
           path: profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true

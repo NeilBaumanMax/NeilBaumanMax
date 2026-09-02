@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-03T00:22:42+08:00",
+  "title": "Design System: Neil Bauman Neon Signal",
+  "extensions": {
+    "colorMeta": {
+      "void-ink": { "role": "neutral", "displayName": "Void Ink", "canonical": "#080611", "tonalRamp": ["#080611", "#141022", "#251B39", "#3A2B53", "#584274", "#80689B", "#B7A7CA", "#F4F1FF"] },
+      "plasma-magenta": { "role": "primary", "displayName": "Plasma Magenta", "canonical": "#FF2BD6", "tonalRamp": ["#31002A", "#58004B", "#82006F", "#AE0095", "#D700B7", "#FF2BD6", "#FF8CEA", "#FFE4FA"] },
+      "electric-cyan": { "role": "secondary", "displayName": "Electric Cyan", "canonical": "#00F0FF", "tonalRamp": ["#003136", "#005962", "#00858F", "#00B2BF", "#00D8E7", "#00F0FF", "#86F8FF", "#E0FDFF"] },
+      "ultraviolet": { "role": "tertiary", "displayName": "Ultraviolet", "canonical": "#8B5CF6", "tonalRamp": ["#1C0E3F", "#342064", "#4E338B", "#6845B3", "#8B5CF6", "#AB8BFA", "#D0BCFD", "#F0E9FF"] },
+      "acid-signal": { "role": "tertiary", "displayName": "Acid Signal", "canonical": "#D9FF3F", "tonalRamp": ["#293400", "#4C5C00", "#718700", "#98B300", "#BDE000", "#D9FF3F", "#E9FF91", "#F8FFD9"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Broadcast Display", "purpose": "Oversized identity lettering inside authored SVG assets." },
+      "body": { "displayName": "Native Body", "purpose": "Long-form profile copy rendered by GitHub." },
+      "signal": { "displayName": "Signal Label", "purpose": "Section coordinates, status chips, and terse telemetry." }
+    },
+    "shadows": [
+      { "name": "cyan-bloom", "value": "0 0 18px rgba(0,240,255,0.7)", "purpose": "Navigation and snake-head glow inside SVG assets." },
+      { "name": "magenta-bloom", "value": "0 0 24px rgba(255,43,214,0.55)", "purpose": "Identity lettering and hot route segments inside SVG assets." }
+    ],
+    "motion": [
+      { "name": "arcade-run", "value": "18s linear infinite", "purpose": "One continuous snake traversal through the daily energy-node route." },
+      { "name": "signal-pulse", "value": "1.8s ease-in-out infinite", "purpose": "Low-amplitude energy-node pulse." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Signal Chip",
+      "kind": "chip",
+      "refersTo": "signal-chip",
+      "description": "A hard-edged channel or live-state label.",
+      "html": "<span class=\"ds-signal-chip\">SIGNAL // ONLINE</span>",
+      "css": ".ds-signal-chip { display:inline-block; padding:6px 10px; border:1px solid #00F0FF; border-radius:3px; background:#100B1F; color:#00F0FF; font:700 12px/1.2 ui-monospace,monospace; letter-spacing:.12em; box-shadow:0 0 18px rgba(0,240,255,.35); }"
+    },
+    {
+      "name": "Neon Panel",
+      "kind": "card",
+      "refersTo": "neon-panel",
+      "description": "A contained broadcast surface for a single signature visual.",
+      "html": "<div class=\"ds-neon-panel\"><strong>CHANNEL ACTIVE</strong><p>Repository-owned signal.</p></div>",
+      "css": ".ds-neon-panel { padding:16px; border:1px solid #8B5CF6; border-radius:12px; background:#080611; color:#F4F1FF; box-shadow:0 0 24px rgba(139,92,246,.28); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; } .ds-neon-panel strong { color:#D9FF3F; font-family:ui-monospace,monospace; letter-spacing:.12em; } .ds-neon-panel p { color:#B8ADD2; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Pirate Signal Terminal",
+    "overview": "The profile behaves like an intercepted builder broadcast: real coordinates, project callsigns, and living telemetry framed by punk-flyer energy, arcade diagnostics, PCB traces, and ultraviolet club lighting.",
+    "keyCharacteristics": ["Four-signal neon palette", "Terminal labels with oversized display lettering", "Repository-owned animated SVG atmosphere", "Factual project indexes as the backbone"],
+    "rules": [
+      { "name": "The Four-Signal Rule", "body": "A composed asset uses at least two neon roles; acid yellow remains rare enough to mean live energy.", "section": "colors" },
+      { "name": "The Native Body Rule", "body": "Paragraphs remain in GitHub's native body type; terminal mono is for labels and telemetry.", "section": "typography" },
+      { "name": "The Contained Glow Rule", "body": "Every bloom effect lives inside an SVG boundary.", "section": "elevation" }
+    ],
+    "dos": ["Use large authored SVG moments at the opening and closing of the page.", "Preserve real repository links and plain-language descriptions.", "Provide a non-animated state for motion-sensitive visitors."],
+    "donts": ["Return to monochrome cyan or generic matrix-code styling.", "Stack dozens of unrelated service cards and badges.", "Simulate accomplishments, activity, or contribution data."]
+  }
+}
